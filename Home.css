@@ -155,7 +155,7 @@
 
 .down-arrow {
   color: white;
-  margin-top: 100px;
+  margin-top: 150px;
   font-size: 30px;
   cursor: pointer;
 }
@@ -202,3 +202,45 @@
 
 
 /* CARDS */
+
+/* DESIGN SHOTS */
+
+.design-shots{
+  margin-bottom: 10rem;
+}
+
+.column{
+  margin:0px 0px 20px 20px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+}
+
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* DESIGN SHOTS */
+
+
+.about p{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 36%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 20px;
+}
