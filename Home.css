@@ -50,7 +50,8 @@
   background: transparent;
 }
 
-.home-text h1 {
+.gradient{
+  font-family: "Red Rose", cursive;
   font-size: 70px;
   font-weight: 400;
   z-index: 10;
@@ -154,7 +155,50 @@
 
 .down-arrow {
   color: white;
-  margin-top: 60px;
+  margin-top: 100px;
   font-size: 30px;
   cursor: pointer;
 }
+
+
+/* CARDS */
+
+.cards{
+  display: flex;
+  gap: 2rem;
+  max-width: 55%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  background: #1F1F1F;
+  padding: 35px;
+  border-radius: 13px;
+  margin-bottom: 2rem;
+}
+
+.card-desc{
+  color: white;
+  background-color: #1F1F1F !important;
+}
+
+.tag{
+  font-style: italic;
+  color: #646464;
+  background-color: transparent;
+}
+
+.card-title{
+  background-color: transparent;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.detail{
+  background-color: transparent;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+
+/* CARDS */
