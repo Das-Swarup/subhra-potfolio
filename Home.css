@@ -12,7 +12,7 @@
 }
 
 .navbar {
-  color: #898989;
+  color: #898989 !important;
   font-family: "Montserrat", sans-serif;
   display: flex;
   gap: 3rem;
@@ -24,6 +24,16 @@
 
 .navbar p {
   cursor: pointer;
+}
+
+.navbar a{
+  color: #898989;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: #6c002a;
+  transition: 0.5s;
 }
 
 .home-text {
@@ -50,7 +60,7 @@
   background: transparent;
 }
 
-.gradient{
+.gradient {
   font-family: "Red Rose", cursive;
   font-size: 70px;
   font-weight: 400;
@@ -59,15 +69,15 @@
 
   /* Gradient */
 
-  background: linear-gradient(90deg,#fff, #904e95,#904e95, #e73c7e,#fff);
+  background: linear-gradient(90deg, #fff, #904e95, #904e95, #e73c7e, #fff);
   background-size: 200% auto;
-  
+
   color: #000;
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   animation: flow 4s ease-in-out infinite;
 }
 
@@ -80,17 +90,23 @@
 
   /* Gradient */
 
-  background: linear-gradient(90deg,#ee7752, #904e95,#904e95, #e73c7e,#ee7752);
+  background: linear-gradient(
+    90deg,
+    #ee7752,
+    #904e95,
+    #904e95,
+    #e73c7e,
+    #ee7752
+  );
   background-size: 200% auto;
-  
+
   color: #000;
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   animation: flow 4s ease-in-out infinite;
-  
 }
 @keyframes flow {
   to {
@@ -120,7 +136,7 @@
   left: -5%;
   width: 273px;
   height: 273px;
-  background: #6C002A;
+  background: #6c002a;
   filter: blur(82px);
   border-radius: 50%;
   position: absolute;
@@ -160,10 +176,9 @@
   cursor: pointer;
 }
 
-
 /* CARDS */
 
-.cards{
+.cards {
   display: flex;
   gap: 2rem;
   max-width: 55%;
@@ -171,46 +186,45 @@
   justify-content: center;
   margin: auto;
   font-family: "Montserrat", sans-serif;
-  background: #1F1F1F;
+  background: #1f1f1f;
   padding: 35px;
   border-radius: 13px;
   margin-bottom: 2rem;
 }
 
-.card-desc{
+.card-desc {
   color: white;
-  background-color: #1F1F1F !important;
+  background-color: #1f1f1f !important;
 }
 
-.tag{
+.tag {
   font-style: italic;
   color: #646464;
   background-color: transparent;
 }
 
-.card-title{
+.card-title {
   background-color: transparent;
   margin-top: 2px;
   margin-bottom: 10px;
 }
 
-.detail{
+.detail {
   background-color: transparent;
   line-height: 1.4;
   margin-bottom: 10px;
 }
 
-
 /* CARDS */
 
 /* DESIGN SHOTS */
 
-.design-shots{
+.design-shots {
   margin-bottom: 10rem;
 }
 
-.column{
-  margin:0px 0px 20px 20px;
+.column {
+  margin: 0px 0px 20px 20px;
   align-items: center;
   justify-content: center;
   width: 200px;
@@ -221,11 +235,11 @@
   flex-direction: column;
 }
 
-.row{
+.row {
   display: flex;
 }
 
-.block{
+.block {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,8 +248,7 @@
 
 /* DESIGN SHOTS */
 
-
-.about p{
+.footer p {
   color: white;
   font-family: "Montserrat", sans-serif;
   width: 36%;
