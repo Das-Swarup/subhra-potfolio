@@ -40,6 +40,13 @@
   animation: flow 4s ease-in-out infinite;
 }
 
+@keyframes flow {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
 .purple {
     position: absolute;
     top: -220px;
